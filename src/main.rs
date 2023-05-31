@@ -1,3 +1,7 @@
+use loxit::lox::Lox;
+
+
 fn main() {
-    println!("Hello, Loxit!");
+    let mut lox = Lox::new();
+    lox.main();
 }
